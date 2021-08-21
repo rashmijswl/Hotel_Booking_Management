@@ -15,7 +15,7 @@
         <TextBox HorizontalAlignment="Left" Height="0" Margin="212,255,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="4"/>
         <TextBox x:Name="tbusername" HorizontalAlignment="Left" Margin="212,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="29" FontSize="20"/>
         <TextBox x:Name="tbpassword" HorizontalAlignment="Left" Margin="214,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="28" FontSize="20"/>
-        <Button x:Name="btnLogin" Content="LOGIN" HorizontalAlignment="Left" Margin="564,255,0,0" VerticalAlignment="Top" Height="51" Width="98" RenderTransformOrigin="0.49,-0.029" FontWeight="Bold" FontSize="20"/>
+        <Button x:Name="btnLogin" Content="LOGIN" HorizontalAlignment="Left" Margin="564,255,0,0" VerticalAlignment="Top" Height="51" Width="98" RenderTransformOrigin="0.49,-0.029" FontWeight="Bold" FontSize="20" Click="btnLogin_Click"/>
 
     </Grid>
 </Window>
