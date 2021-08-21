@@ -11,8 +11,7 @@
         <Image x:Name="imgImage1" HorizontalAlignment="Left" Height="467" Margin="0,-19,0,0" VerticalAlignment="Top" Width="803" Stretch="UniformToFill" Source="/image_1.jpg" Opacity="0.3"/>
 
         <Button x:Name="btnCheckAvailability" Content="Check Room Availability" HorizontalAlignment="Left" Margin="532,137,0,0" VerticalAlignment="Top" Height="46" Width="234" FontSize="20" FontWeight="Bold" Click="btnCheckAvailability_Click"/>
-        <Label x:Name="lblTitle" Content="MGR Hotel Booking System" HorizontalAlignment="Left" Height="62" Margin="118,0,0,0" VerticalAlignment="Top" Width="534" FontSize="40" FontWeight="Bold" FontFamily="Algerian"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="73,176,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTitle" Content="MGR Hotel Booking System" HorizontalAlignment="Left" Height="62" Margin="118,0,0,0" VerticalAlignment="Top" Width="579" FontSize="40" FontWeight="Bold" FontFamily="Algerian"/>
         <Button x:Name="btnViewBookings" Content="View Bookings" HorizontalAlignment="Left" Margin="37,145,0,0" VerticalAlignment="Top" Height="46" Width="234" FontSize="20" FontWeight="Bold" Click="btnViewBookings_Click"/>
         <Button x:Name="btnModifyBookings" Content="Modify Bookings" HorizontalAlignment="Center" Margin="0,309,0,0" VerticalAlignment="Top" Height="46" Width="234" FontSize="20" FontWeight="Bold" Click="btnModifyBookings_Click"/>
         <Button x:Name="btnBookStay" Content="Book Stay" HorizontalAlignment="Center" Margin="0,236,0,0" VerticalAlignment="Top" Height="46" Width="234" FontSize="20" FontWeight="Bold" Click="btnBookStay_Click"/>
