@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="image_1.jpg" />
     <None Remove="luxury-hotel.jpg" />
   </ItemGroup>
 
@@ -15,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="image_1.jpg" />
     <Resource Include="luxury-hotel.jpg" />
   </ItemGroup>
 
