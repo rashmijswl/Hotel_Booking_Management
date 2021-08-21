@@ -6,4 +6,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="luxury-hotel.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="HotelImages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="luxury-hotel.jpg" />
+  </ItemGroup>
+
 </Project>
