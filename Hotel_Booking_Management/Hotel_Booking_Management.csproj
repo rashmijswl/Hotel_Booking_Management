@@ -20,6 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="BookingStay.jpg" />
     <Resource Include="image_1.jpg" />
     <Resource Include="luxury-hotel.jpg" />
