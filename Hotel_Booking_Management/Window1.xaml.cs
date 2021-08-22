@@ -23,21 +23,31 @@ namespace Hotel_Booking_Management
 
         private void btnViewBookings_Click(object sender, RoutedEventArgs e)
         {
+            ViewAndCheck view = new ViewAndCheck();
+            view.Show();
+            this.Close();
 
         }
 
         private void btnBookStay_Click(object sender, RoutedEventArgs e)
         {
-
+            BookingStay book = new BookingStay();
+            book.Show();
+            this.Close();
         }
 
         private void btnCheckAvailability_Click(object sender, RoutedEventArgs e)
         {
-
+            ViewAndCheck check = new ViewAndCheck();
+            check.Show();
+            this.Close();
         }
 
         private void btnModifyBookings_Click(object sender, RoutedEventArgs e)
         {
+            ModifyBooking modify = new ModifyBooking();
+            modify.Show();
+            this.Close();
 
         }
     }

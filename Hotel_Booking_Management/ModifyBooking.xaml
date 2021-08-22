@@ -19,6 +19,6 @@
         <Button x:Name="btnFetch" Content="Fetch" HorizontalAlignment="Left" Margin="257,148,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Width="50" RenderTransformOrigin="-0.576,0.65"/>
         <DataGrid Margin="334,147,21,60"/>
         <Button x:Name="btnModify" Content="Modify" HorizontalAlignment="Left" Margin="173,257,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
-
+        <Button x:Name="btnback" Content="Menu" HorizontalAlignment="Left" Margin="736,15,0,0" VerticalAlignment="Top" Width="54" Click="btnback_Click"/>
     </Grid>
 </Window>

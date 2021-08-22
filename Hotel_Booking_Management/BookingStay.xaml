@@ -29,6 +29,6 @@
         <RadioButton x:Name="rbBeachView" Content="Beach View" HorizontalAlignment="Left" Margin="616,301,0,0" VerticalAlignment="Top" Height="30" Width="113" FontSize="18" FontFamily="Arial Narrow"/>
         <RadioButton x:Name="rbApartment" Content="Apartment" HorizontalAlignment="Left" Margin="616,336,0,0" VerticalAlignment="Top" Height="30" Width="113" FontFamily="Arial Narrow" FontSize="18"/>
         <Button x:Name="btnBook" Content="Book" HorizontalAlignment="Left" Height="46" Margin="530,398,0,0" VerticalAlignment="Top" Width="142" FontFamily="Arial Black" FontWeight="Bold" FontSize="20" Click="btnBook_Click"/>
-
+        <Button x:Name="btnback" Content="Menu" HorizontalAlignment="Left" Margin="736,15,0,0" VerticalAlignment="Top" Width="54" Click="btnback_Click"/>
     </Grid>
 </Window>

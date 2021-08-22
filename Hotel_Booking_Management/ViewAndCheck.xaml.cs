@@ -22,6 +22,11 @@ namespace Hotel_Booking_Management
             InitializeComponent();
         }
 
-
+        private void btnback_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 wnd1 = new Window1();
+            wnd1.Show();
+            this.Close();
+        }
     }
 }
