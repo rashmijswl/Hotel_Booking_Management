@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hotel_Booking_Management"
         mc:Ignorable="d"
-        Title="BookingStay" Height="500" Width="850">
+        Title="BookingStay" Height="500" Width="900">
     <Grid>
-        <Image HorizontalAlignment="Center" Height="481" VerticalAlignment="Top" Width="849" Source="/BookingStay.jpg" Stretch="UniformToFill" Opacity="0.3"/>
+        <Image HorizontalAlignment="Center" Height="481" VerticalAlignment="Top" Width="928" Source="/BookingStay.jpg" Stretch="UniformToFill" Opacity="0.3"/>
         <Label x:Name="lblTitle" Content="MGR Hotel Booking System" HorizontalAlignment="Left" Height="86" Margin="106,10,0,0" VerticalAlignment="Top" Width="708" FontSize="40" FontWeight="Bold" FontFamily="Algerian"/>
         <Label x:Name="lblFromDate" Content="From Date" HorizontalAlignment="Left" Height="48" Margin="461,141,0,0" VerticalAlignment="Top" Width="152" FontSize="20" FontWeight="Bold" FontFamily="Arial Black"/>
         <Label x:Name="lblToDate" Content="To Date" HorizontalAlignment="Left" Height="48" Margin="462,200,0,0" VerticalAlignment="Top" Width="151" FontFamily="Arial Black" FontSize="20"/>
@@ -21,8 +21,8 @@
         <TextBox x:Name="txtCustomerIdType" HorizontalAlignment="Left" Height="34" Margin="244,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
         <TextBox x:Name="txtCreditCardNo" HorizontalAlignment="Left" Height="34" Margin="244,356,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
         <Label x:Name="lblEmail" Content="Email ID" HorizontalAlignment="Left" Height="45" Margin="22,244,0,0" VerticalAlignment="Top" Width="164" FontFamily="Arial Black" FontSize="20"/>
-        <Label x:Name="lblCustomerIdType" Content="Cutomer ID" HorizontalAlignment="Left" Height="45" Margin="22,303,0,0" VerticalAlignment="Top" Width="164" FontFamily="Arial Black" FontSize="20" RenderTransformOrigin="0.454,0.972"/>
-        <Label x:Name="lblCreditCardNo" Content="Credit Card No." HorizontalAlignment="Left" Height="45" Margin="22,356,0,0" VerticalAlignment="Top" Width="164" FontFamily="Arial Black" FontSize="20"/>
+        <Label x:Name="lblCustomerIdType" Content="Customer ID Type" HorizontalAlignment="Left" Height="45" Margin="22,303,0,0" VerticalAlignment="Top" Width="217" FontFamily="Arial Black" FontSize="20" RenderTransformOrigin="0.454,0.972"/>
+        <Label x:Name="lblCreditCardNo" Content="Credit Card No." HorizontalAlignment="Left" Height="45" Margin="22,356,0,0" VerticalAlignment="Top" Width="188" FontFamily="Arial Black" FontSize="20"/>
         <Label x:Name="lblCustomerInformation" Content="Customer Information" HorizontalAlignment="Left" Height="45" Margin="27,96,0,0" VerticalAlignment="Top" Width="265" FontSize="20" FontWeight="Bold" FontFamily="Arial Black"/>
         <Label x:Name="lblRoomType" Content="Room Type" HorizontalAlignment="Left" Height="48" Margin="460,253,0,0" VerticalAlignment="Top" Width="151" FontFamily="Arial Black" FontSize="20"/>
         <RadioButton x:Name="rbPresidential" Content="Presidential Suite" HorizontalAlignment="Left" Margin="616,266,0,0" VerticalAlignment="Top" Height="30" Width="137" FontSize="18" FontFamily="Arial Narrow" FontWeight="Bold" GroupName="roomtype"/>
