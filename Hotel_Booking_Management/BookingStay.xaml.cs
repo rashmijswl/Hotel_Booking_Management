@@ -36,6 +36,7 @@ namespace Hotel_Booking_Management
                 cmd.CommandType = CommandType.Text;
 
 
+
                 cmd.Parameters.AddWithValue("@Customer_Name", txtCustomerName.Text);
                 cmd.Parameters.AddWithValue("@Customer_Phone", txtPhone.Text);
                 cmd.Parameters.AddWithValue("@Customer_Email", txtEmailId1.Text);
