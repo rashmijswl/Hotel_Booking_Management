@@ -40,6 +40,7 @@ namespace Hotel_Booking_Management
                 cmd.Parameters.AddWithValue("@Customer_Phone", txtPhone.Text);
                 cmd.Parameters.AddWithValue("@Customer_Email", txtEmailId1.Text);
                 cmd.Parameters.AddWithValue("@Customer_ID_type", txtCustomerIdType.Text);
+
                 if (rbPresidential.IsChecked == true)
                 {
                     roomid = 1;

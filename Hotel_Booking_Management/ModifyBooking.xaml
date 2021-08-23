@@ -5,20 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hotel_Booking_Management"
         mc:Ignorable="d"
-        Title="ModifyBooking" Height="450" Width="800">
+        Title="ModifyBooking" Height="500" Width="850">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="449" VerticalAlignment="Top" Width="809" Source="/modifybooking.jpg" Stretch="UniformToFill" Opacity="0.3"/>
-        <Label x:Name="lblTitle" Content="MGR Hotel Booking System" HorizontalAlignment="Left" Height="60" Margin="136,0,0,0" VerticalAlignment="Top" Width="538" FontSize="40" FontWeight="Bold" FontFamily="Algerian"/>
-        <Label Content="Modify Bookings" HorizontalAlignment="Left" Margin="79,78,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
-        <Label Content="From Date" HorizontalAlignment="Left" Margin="29,181,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <TextBox HorizontalAlignment="Left" Margin="112,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
-        <DatePicker HorizontalAlignment="Left" Margin="112,186,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="To Date" HorizontalAlignment="Left" Margin="29,215,0,0" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.989,1.113"/>
-        <DatePicker HorizontalAlignment="Left" Margin="112,220,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Booking ID" HorizontalAlignment="Left" Margin="29,144,0,0" VerticalAlignment="Top" FontSize="14"/>
-        <Button x:Name="btnFetch" Content="Fetch" HorizontalAlignment="Left" Margin="257,148,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Width="50" RenderTransformOrigin="-0.576,0.65"/>
-        <DataGrid Margin="334,147,21,60"/>
-        <Button x:Name="btnModify" Content="Modify" HorizontalAlignment="Left" Margin="173,257,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Center" Height="481" VerticalAlignment="Top" Width="850" Source="/modifybooking.jpg" Stretch="UniformToFill" Opacity="0.3"/>
+        <Label x:Name="lblTitle" Content="MGR Hotel Booking System" HorizontalAlignment="Left" Height="60" Margin="136,0,0,0" VerticalAlignment="Top" Width="595" FontSize="40" FontWeight="Bold" FontFamily="Algerian"/>
+        <Label Content="Modify Bookings" HorizontalAlignment="Left" Margin="319,65,0,0" VerticalAlignment="Top" FontSize="23" FontWeight="Bold"/>
+        <Label Content="From Date" HorizontalAlignment="Left" Margin="10,154,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.213,0.403" FontWeight="Bold"/>
+        <TextBox x:Name="txtBookingId" HorizontalAlignment="Left" Margin="136,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26" RenderTransformOrigin="0.492,0.598"/>
+        <DatePicker x:Name="dpnewfromdate" HorizontalAlignment="Left" Margin="136,160,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.492,0.96"/>
+        <Label Content="To Date" HorizontalAlignment="Left" Margin="277,155,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.989,1.113" FontWeight="Bold"/>
+        <DatePicker x:Name="dpnewtodate" HorizontalAlignment="Left" Margin="390,165,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Booking ID" HorizontalAlignment="Left" Margin="0,109,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0,0.508" FontWeight="Bold"/>
+        <Button x:Name="btnFetch" Content="Fetch" HorizontalAlignment="Left" Margin="293,115,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="66" RenderTransformOrigin="-0.576,0.65" Click="btnFetch_Click"/>
+        <DataGrid x:Name="modifydatagrid" Margin="22,197,40,28"/>
+        <Button x:Name="btnModify" Content="Modify" HorizontalAlignment="Left" Margin="578,158,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Click="btnModify_Click"/>
         <Button x:Name="btnback" Content="Menu" HorizontalAlignment="Left" Margin="736,15,0,0" VerticalAlignment="Top" Width="54" Click="btnback_Click"/>
     </Grid>
 </Window>
