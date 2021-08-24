@@ -38,7 +38,7 @@ namespace Hotel_Booking_Management
                     SqlCommand cmd = new SqlCommand(@"SELECT * FROM [Admin1] WHERE UserName = @uname AND Password = @pwd", sqlcon);
                     cmd.CommandType = CommandType.Text;
                     cmd.Parameters.AddWithValue("@uname", tbusername.Text);
-                    cmd.Parameters.AddWithValue("@pwd", tbpassword.Text);
+                    cmd.Parameters.AddWithValue("@pwd", tbpassword.Password);
                     int cnt = Convert.ToInt32(cmd.ExecuteScalar());
                    
                     if (cnt == 1)
