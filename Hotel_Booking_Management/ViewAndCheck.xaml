@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hotel_Booking_Management"
         mc:Ignorable="d"
-        Title="ViewAndCheck" Height="490" Width="850" FontStyle="Italic" FontWeight="Bold" FontSize="14">
+        Title="ViewAndCheck" Height="490" Width="900" FontStyle="Italic" FontWeight="Bold" FontSize="14">
     <Grid>
-        <Image HorizontalAlignment="Center" Height="474" VerticalAlignment="Center" Width="850" Source="/viewandcheck1.jpg" Stretch="Fill" Opacity="0.2"/>
+        <Image HorizontalAlignment="Center" Height="474" VerticalAlignment="Center" Width="900" Source="/viewandcheck1.jpg" Stretch="Fill" Opacity="0.2"/>
         <Label x:Name="lblTitle" Content="MGR Hotel Booking System" HorizontalAlignment="Left" Height="70" Margin="102,15,0,0" VerticalAlignment="Top" Width="584" FontSize="40" FontWeight="Bold" FontFamily="Algerian"/>
         <Label x:Name="lblFromDate" Content="From Date" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="20"/>
         <Label x:Name="lblToDate" Content="To Date" HorizontalAlignment="Left" Margin="316,85,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="20" RenderTransformOrigin="-2.075,0.475"/>
         <DatePicker x:Name="dpFromDate" HorizontalAlignment="Left" Margin="154,91,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.147,-0.189" Height="31" Width="142"/>
         <DatePicker x:Name="dpToDate" HorizontalAlignment="Left" Margin="441,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.147,-0.189" Height="31" Width="145"/>
         <DataGrid x:Name="dataGrid" HorizontalAlignment="Center" Height="220" Margin="0,153,0,0" VerticalAlignment="Top" Width="716"/>
-        <Button x:Name="btnCheck" Content="View Bookings" HorizontalAlignment="Left" Margin="641,82,0,0" VerticalAlignment="Top" Height="40" Width="149"  FontSize="20" FontWeight="Bold" Click="btnCheck_Click"/>
+        <Button x:Name="btnViewBookings" Content="View Bookings" HorizontalAlignment="Left" Margin="641,82,0,0" VerticalAlignment="Top" Height="40" Width="149"  FontSize="20" FontWeight="Bold" Click="btnViewBookings_click"/>
         <Button x:Name="btnback" Content="Menu" HorizontalAlignment="Left" Margin="736,15,0,0" VerticalAlignment="Top" Width="54" Click="btnback_Click"/>
         <Label x:Name="lblpresidential" Content="Presidential Suite" HorizontalAlignment="Left" Margin="42,407,0,0" VerticalAlignment="Top" Width="132"/>
         <Label x:Name="lblBeach" Content="Beach View" HorizontalAlignment="Left" Margin="298,407,0,0" VerticalAlignment="Top" Width="96"/>

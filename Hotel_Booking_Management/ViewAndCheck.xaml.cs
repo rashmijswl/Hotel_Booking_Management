@@ -36,12 +36,24 @@ namespace Hotel_Booking_Management
             this.Close();
         }
 
-        private void btnCheck_Click(object sender, RoutedEventArgs e)
+        private void btnViewBookings_click(object sender, RoutedEventArgs e)
         {
             try
             {
-               
-                LoadGrid();
+                if (dpFromDate.SelectedDate.ToString() == string.Empty || dpToDate.SelectedDate.ToString() == string.Empty)
+                {
+                    MessageBox.Show("Please select the date");
+                    
+                }
+                else if (dpFromDate.SelectedDate > dpToDate.SelectedDate)
+                {
+                    MessageBox.Show("From Date can not be greater than To Date.");
+                }
+                else
+                {
+                    LoadGrid();
+                }
+                
             }
             catch(Exception ex)
             {
@@ -52,8 +64,7 @@ namespace Hotel_Booking_Management
 
         public void LoadGrid()
         {
-            SqlCommand cmd = new SqlCommand("SELECT * FROM Bookings Where Booking_FromDate >= @Booking_FromDate AND Booking_ToDate <= @Booking_ToDate", sqlcon);
-
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Bookings Where Booking_FromDate BETWEEN @Booking_FromDate AND @Booking_ToDate", sqlcon);
             cmd.Parameters.AddWithValue("@Booking_FromDate", dpFromDate.SelectedDate);
             cmd.Parameters.AddWithValue("@Booking_ToDate", dpToDate.SelectedDate);
 
