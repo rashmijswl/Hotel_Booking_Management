@@ -84,5 +84,12 @@ namespace Hotel_Booking_Management
             tbbeachviewcount.Text = "50";
             tbpresidentavailcount.Text = "8";
         }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow loginScreen = new MainWindow();
+            loginScreen.Show();
+            this.Close();
+        }
     }
 }

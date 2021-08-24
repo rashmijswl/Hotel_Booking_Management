@@ -13,6 +13,7 @@
         <Button x:Name="btnViewBookings" Content="View Bookings" HorizontalAlignment="Left" Margin="281,145,0,0" VerticalAlignment="Top" Height="46" Width="234" FontSize="20" FontWeight="Bold" Click="btnViewBookings_Click"/>
         <Button x:Name="btnModifyBookings" Content="Modify Bookings" HorizontalAlignment="Left" Margin="281,316,0,0" VerticalAlignment="Top" Height="46" Width="234" FontSize="20" FontWeight="Bold" Click="btnModifyBookings_Click"/>
         <Button x:Name="btnBookStay" Content="Book Stay" HorizontalAlignment="Center" Margin="0,236,0,0" VerticalAlignment="Top" Height="46" Width="234" FontSize="20" FontWeight="Bold" Click="btnBookStay_Click"/>
+        <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="702,20,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.337,-0.824" FontSize="14" Click="btnLogout_Click" Width="57"/>
 
     </Grid>
 </Window>

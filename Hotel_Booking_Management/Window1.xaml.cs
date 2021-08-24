@@ -50,5 +50,12 @@ namespace Hotel_Booking_Management
             this.Close();
 
         }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow loginScreen = new MainWindow();
+            loginScreen.Show();
+            this.Close();
+        }
     }
 }

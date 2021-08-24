@@ -20,5 +20,6 @@
         <DataGrid x:Name="modifydatagrid" Margin="22,197,40,28"/>
         <Button x:Name="btnModify" Content="Modify" HorizontalAlignment="Left" Margin="578,158,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Click="btnModify_Click"/>
         <Button x:Name="btnback" Content="Menu" HorizontalAlignment="Left" Margin="736,15,0,0" VerticalAlignment="Top" Width="54" Click="btnback_Click"/>
+        <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="736,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.337,-0.824" FontSize="14" Width="54" Click="btnLogout_Click" ></Button>
     </Grid>
 </Window>

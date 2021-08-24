@@ -30,5 +30,7 @@
         <RadioButton x:Name="rbApartment" Content="Apartment" HorizontalAlignment="Left" Margin="616,336,0,0" VerticalAlignment="Top" Height="30" Width="113" FontFamily="Arial Narrow" FontSize="18" GroupName="roomtype"/>
         <Button x:Name="btnBook" Content="Book" HorizontalAlignment="Left" Height="46" Margin="530,398,0,0" VerticalAlignment="Top" Width="142" FontFamily="Arial Black" FontWeight="Bold" FontSize="20" Click="btnBook_Click"/>
         <Button x:Name="btnback" Content="Menu" HorizontalAlignment="Left" Margin="736,15,0,0" VerticalAlignment="Top" Width="54" Click="btnback_Click"/>
+        <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="736,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.337,-0.824" FontSize="14" Width="54" Click="btnLogout_Click" ></Button>
+
     </Grid>
 </Window>
