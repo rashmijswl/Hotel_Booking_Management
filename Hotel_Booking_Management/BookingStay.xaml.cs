@@ -130,21 +130,7 @@ namespace Hotel_Booking_Management
                 MessageBox.Show("Selected Date can not be less than Today");
                 return false;
             }
-            //if (rbPresidential.IsChecked != true)
-            //{
-            //    MessageBox.Show("Please select Room Type");
-            //    return false;
-            //}
-            //if (rbBeachView.IsChecked != true)
-            //{
-            //    MessageBox.Show("Please select Room Type");
-            //    return false;
-            //}
-            //if (rbApartment.IsChecked != true)
-            //{
-            //    MessageBox.Show("Please select Room Type");
-            //    return false;
-            //}
+            
 
 
             return true;
@@ -157,6 +143,13 @@ namespace Hotel_Booking_Management
             this.Close();
 
 
+        }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow loginScreen = new MainWindow();
+            loginScreen.Show();
+            this.Close();
         }
     }
 }

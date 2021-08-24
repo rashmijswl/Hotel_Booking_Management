@@ -23,6 +23,6 @@
         <TextBox x:Name="tbbeachviewcount" HorizontalAlignment="Center" Margin="0,403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42" Height="33" RenderTransformOrigin="-0.214,-0.241" FontSize="20"/>
         <TextBox x:Name="tbapartmentcount" HorizontalAlignment="Left" Margin="626,403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42" Height="33" RenderTransformOrigin="-0.214,-0.241" FontSize="20"/>
         <Button Content="Check Availability" HorizontalAlignment="Left" Margin="700,403,0,0" VerticalAlignment="Top" Width="140" Height="35" FontSize="14" Click="Button_Click"/>
-
+        <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="736,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.337,-0.824" FontSize="14" Width="54" Click="btnLogout_Click" ></Button>
     </Grid>
 </Window>

@@ -50,10 +50,7 @@ namespace Hotel_Booking_Management
             cmd1.Parameters.AddWithValue("@Booking_id", txtBookingId.Text);
             sqlcon.Open();
             
-            int count = cmd1.ExecuteNonQuery();
-         
-            //if (count > 0)
-            {
+            int count = cmd1.ExecuteNonQuery();    
 
 
                 SqlCommand cmd = new SqlCommand("SELECT * FROM Bookings Where Booking_Id = @Booking_Id", sqlcon);
@@ -61,20 +58,12 @@ namespace Hotel_Booking_Management
                 cmd.Parameters.AddWithValue("@Booking_Id", txtBookingId.Text);
 
 
-
-                DataTable dt = new DataTable();
-                //sqlcon.Open();
+                DataTable dt = new DataTable();              
                 SqlDataReader sdr = cmd.ExecuteReader();
                 dt.Load(sdr);
                 sqlcon.Close();
                 modifydatagrid.ItemsSource = dt.DefaultView;
-                //return true;
-            }
-            //else
-            {
-            //    MessageBox.Show("Booking Id does not exist");
-                //return false;
-            }
+   
         }
 
         private void btnModify_Click(object sender, RoutedEventArgs e)
@@ -96,13 +85,10 @@ namespace Hotel_Booking_Management
                     sqlcon.Open();
                     cmd.ExecuteNonQuery();
                     sqlcon.Close();
-                    LoadGrid();
+                    LoadGrid();               
 
-                    //if (LoadGrid())
-                    {
-
-                        MessageBox.Show("New dates Updated!");
-                    }
+                   MessageBox.Show("New dates Updated!");
+                 
                         
                 }
             }
@@ -125,12 +111,11 @@ namespace Hotel_Booking_Management
 
                         if (dpnewfromdate.SelectedDate >= today && dpnewtodate.SelectedDate >= today && dpnewtodate.SelectedDate >= dpnewfromdate.SelectedDate)
                         {
-                            //sqlcon.Close();
+                            
                             return true;
                         }
                         else
-                        {
-                            //sqlcon.Close();
+                        {                          
                             MessageBox.Show("Invalid Dates");
                             return false;
                         }                 
@@ -150,6 +135,13 @@ namespace Hotel_Booking_Management
             }
             finally { sqlcon.Close(); }
 
+        }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow loginScreen = new MainWindow();
+            loginScreen.Show();
+            this.Close();
         }
     }
 }
